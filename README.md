@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# Homework 05 Third-Party APIs: Work Day Scheduler
 
-You can use the [editor on GitHub](https://github.com/jaccihorvath/work-day-scheduler/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Description
+In this repository, you will find a simpler calendar application that allows a user to save events for each hour of the workday. This application will run in the browser and features dynamically updated HTML and CSS powered by jQuery.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The Moment.js library was utilized to work with dates and times.
 
-### Markdown
+## How it Works
+Users are directed to web page that features:
+* A header with a brief description of the app
+* The current date and time
+* Time blocks for hours of the workday, beginning at 8am and ending at 5pm
+* An area to input tasks
+* A save button to store the user's data in localstorage
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The time blocks are color-coded to indicate whether they are past, present or future:
+* A grey block indicates a past event
+* A red block indicates the current event
+* A green block indicates a future event
 
-```markdown
-Syntax highlighted code block
+### Bugs
+On refresh, I was unable to retrieve the user's saved data from localstorage and display on page.
 
-# Header 1
-## Header 2
-### Header 3
+## Mock-Up
+The finished project can be deployed [here](https://jaccihorvath.github.io/work-day-scheduler/).
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jaccihorvath/work-day-scheduler/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Demo
+![demo](Assets/demo.gif)
